@@ -19,7 +19,7 @@ if "authenticated" not in st.session_state:
     st.session_state["authenticated"] = False
 
 if not st.session_state["authenticated"]:
-    st.title("🔒 Secured Dashboard (Streamlit Cloud, Python 3.13 Compatible)")
+    st.title("🔒 Secured Dashboard (Streamlit Cloud, Safe NumPy Build)")
     password = st.text_input("Enter Master Password", type="password")
     if st.button("Login"):
         if password == MASTER_PASSWORD:

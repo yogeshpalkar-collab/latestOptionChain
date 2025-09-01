@@ -1,4 +1,4 @@
-# Secured Option Chain Dashboard (Streamlit Cloud, Python 3.13 Compatible)
+# Secured Option Chain Dashboard (Streamlit Cloud, Safe NumPy)
 
 ## Setup on Streamlit Cloud
 1. Push this project to GitHub.
@@ -16,5 +16,5 @@ TOTP="your_totp"
 
 ## Notes
 - Uses `st.secrets` (no .env needed)
-- Python version is forced by Streamlit Cloud (currently 3.13.6)
-- Dependencies are pinned to versions compatible with Python 3.13
+- Streamlit Cloud enforces Python 3.13.6
+- NumPy pinned to 1.26.4 (stable wheels for 3.13 to avoid long builds)
